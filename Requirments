@@ -1,0 +1,12 @@
+The requirements are
+
+Chatterbot
+chatterbot-corpus
+SpeechRecognition
+googleapiclient
+webbrowser
+Tkinter
+
+How to install these modules in Windows is by using pip command 
+    pip install modulename
+        eg: pip install chatterbot
