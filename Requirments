@@ -8,6 +8,11 @@ googleapiclient
 webbrowser
 Tkinter
 
+How to install Pip in windows:
+Download "get-pip.py" to a folder on your computer. Open a command prompt window and navigate to the folder containing get-pip.py. 
+Then run python get-pip.py. This will install pip.
+Then type "pip freeze" you will see what modules are installed in your python.
+
 How to install these modules in Windows is by using pip command 
     pip install modulename
         eg: pip install chatterbot
