@@ -39,8 +39,8 @@ class TkinterGUIExample(tk.Tk):
         
         self.chatbot.set_trainer(ListTrainer)   
         
-        for files in os.listdir('C:/Users/Havilah\Desktop\Product\Completed\chatterbot-corpus-master\chatterbot_corpus\data\english/'):
-            data = open( 'C:/Users/Havilah\Desktop\Product\Completed\chatterbot-corpus-master\chatterbot_corpus\data\english/'+ files , 'r').readlines()
+        for files in os.listdir('C:/Users\Desktop\Product\Completed\chatterbot-corpus-master\chatterbot_corpus\data\english/'):
+            data = open( 'C:/Users\Desktop\Product\Completed\chatterbot-corpus-master\chatterbot_corpus\data\english/'+ files , 'r').readlines()
             self.chatbot.train(data)
 
     def initialize(self):
